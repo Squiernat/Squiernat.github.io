@@ -1,0 +1,416 @@
+//General 
+*{ box-sizing: border-box;}
+
+
+
+p {
+  width: 50vw;
+  margin:0;
+}
+
+h2 {
+  display: block;
+  margin-top: 0;
+  font-size : 15pt;
+  color: #EF6464;
+}
+
+h4 {
+text-align: center;
+text-justify: inter-word;
+//width: 200px;
+//height: 65px;
+border-radius: 5px;
+//border: 3px solid;
+color: black;
+//font-family: Montserrat-bold;
+//background-color: #F4CC8B;
+//padding: 12px 12px;
+
+}
+
+/*.heroImage { //banner header 
+  margin: 0;
+  //padding: 10px;
+  height:60vh; ;
+  //padding: 12px 12px;
+  
+} */
+
+
+
+.plates h4 {color: #F9F6F0;}
+
+.roundPlates {
+  //padding: 25px;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  margin: 0;
+}
+
+.positionPlates {
+  text-align: center;
+  margin: 0;
+  padding: 0 20vw 0 20vw;
+  display:flex;
+  //padding-top: 3vh;
+}
+
+.positionPlates .middle {
+  margin: 0 15vw 0 15vw;
+}
+
+.ad { // banner for the 3 meals ad 
+   position: relative;
+   width: 100%;
+   height: 100%;
+   color: #F9F6F0;
+   //size: 50pt;
+   text-align: left;
+   //text-indent: 10cm;
+   //margin-top: 6vh;
+   padding-bottom: 8vh;
+   //padding-right: 20px;
+   //padding-left: 3vw;
+   //display: flex;
+   background-color: #EF6464;
+  
+}
+
+.ad h2 { 
+  color: #F9F6F0;
+  margin-top:0;
+  margin-left: 5vw;
+  }
+
+.howItWorks {
+  background-color: #F9F6F0;
+  width: 100%;
+  height: 65%;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.user {
+  //padding-right: 30vw;
+  width: 25vw;
+  margin-left:5vw;
+  margin-right: 5vw;
+  //max-width: 25vw;
+
+}
+
+.positionUser {
+display: flex;
+padding:0 20vw 6vh 20vw;
+}
+
+.userIcon {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #F9F6F0;
+font-size : 10pt;
+text-align: center;
+padding:0;
+margin: 0;
+width: 100%;
+}
+
+.logo {
+  width: 15vw;
+  height: 100%;
+  border-radius: 25px;
+  padding: 0;
+  //float: left;
+  //margin: 10vw 0 10vw 0;
+  //vertical-align: text-top;  
+  horizontal-align: middle;
+  //padding-left: 0vw;
+  //position: middle;
+   //display: block;
+  
+}
+
+h1 {margin:1.5% 0 0 0; 
+font-size: x-large;
+}
+
+.heroImage {
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	//position: relative;
+  width: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.heroContents {
+  color: #F9F6F0;
+  width:100%;
+  //padding-left: 20vw;
+  padding-top: 10vh;
+  text-align: center;
+  font-size: large;
+}
+
+h1 {}
+
+.toDownload { //button DOESNT DISPLAY FONT, WHY?
+width: 100px;
+height: 40px;
+border: 10px white;
+border-radius: 25px;
+color: #F9F6F0;
+font-family: Montserrat-bold;
+background-color: #ef6464;
+padding-left: 25px;
+padding-top: 10px;
+padding-right: 25px;
+padding-bottom: 10px;
+margin-left: 0px;
+cursor: pointer;
+text-align: middle;
+
+}
+
+
+/*.adButton {
+width: 200px;
+height: 65px;
+border-radius: 5px;
+border: 3px solid white;
+color: rgb(27, 18, 18);
+font-family: Montserrat-bold;
+background-color: #F4CC8B;
+vertical-align: middle;
+}*/
+
+.mainBenefit {
+  color: black;
+  height: 100%;
+  background-color: #F4CC8B;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  //padding-left: 250px;
+  //align-items: center;
+}
+.mainBenefit h2 {color: black;}
+
+
+.singleBenefit {
+  display: flex;
+  align-items: center; 
+}
+
+.textBenefit1 {
+  margin-right: 5vw; 
+  margin-left: 15vw; 
+  //block-size: 30px;
+  border-radius: 20px;
+  height:auto;
+  display:inline-block;
+  max-width: 30vw;
+
+}
+.textBenefit1 h2 {color: black;}
+
+.iconBenefit1 {
+  
+  width: 250px;
+  height: 220px;
+  margin-right: 25vw; 
+  margin-left: 5vw; 
+}
+
+.textBenefit2 {
+  margin-right: 15vw; 
+  margin-left: 5vw; 
+  //block-size: 30px;
+  border-radius: 20px;
+  height:auto;
+  display:inline-block;
+  max-width: 30vw;
+
+}
+
+.textBenefit2 h2 {color: black;}
+
+.iconBenefit2 {
+  
+  width: 250px;
+  height: 220px;
+  margin-right: 5vw; 
+  margin-left: 25vw; 
+}
+
+.foodSafety {
+  background-color:#F9F6F0;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6vh 0vw 4vh 0vw;
+  //padding-top: 6vh;
+  //padding-bottom: 6vh; 
+  //padding-left: 25vw;
+  //position: absolute;
+}
+
+.foodSafety h2 { color: #EF6464;}
+
+
+/*positionCommitment {
+    margin-bottom: 3vh;
+}*/
+
+.columnCommitment1 {
+  
+  width: 30vw;
+  float: left;
+  margin: 0 2vw 0 18vw;
+
+}
+
+.columnCommitment2 {
+  width: 30vw;
+  float: left;
+   margin: 0 18vw 0 2vw;
+  //margin-left: 0px;
+  //margin-right: 250px;
+  //padding-left: 10vw;
+}
+
+.singleCommitment {
+  margin: 0 0 4vh 0;
+}
+
+.iconCommitment {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+
+.bodySubscribe {
+background-color: #EF6464;
+color: #F9F6F0;
+font-family: Montserrat-Bold;
+font-size : 10pt;
+text-align: center;
+padding:0;
+margin: 0;
+}
+
+.subscribe h2 { 
+color: #F9F6F0;
+  }
+
+
+.submitMail {
+  background-color:#F9F6F0;
+  font-family: Montserrat-Bold;
+  color: #EF6464;
+border: 10px white;
+border-radius: 5px;
+height: 20px;
+width: 100px;
+
+}
+.footer {
+   width: 100%;
+   height: auto;
+   padding: 3vh 0 3vh 0; 
+   background-color: #EF6464;
+   color: #F9F6F0;
+   //size: 30pt;
+   text-align: left;
+   //text-indent: 10mm;
+   display: flex;
+  
+   //padding-top: 2vh;
+   //padding-bottom: 2vh;
+}
+
+.subscribe a {
+  color:#F9F6F0;
+}
+.textFooter {
+  margin-left: 5vw;
+  margin-right: 60vw;
+  width: 20vw;
+}
+
+/*.socialIcons {
+margin-top: 5vh;
+margin-bottom:5vh;
+margin-left: 60vw;
+margin-right: 0vw;
+
+}*/
+.socialNetwork {
+  //padding:0;
+  //margin: 4vw 2vw
+  margin-left: 2vw;
+  margin-right: 2vw;
+  //padding-right: 2vw;
+  width: 25px;
+  height: 25px;
+  justify-content: flex-end;
+  //float: right;
+  cursor: pointer;
+}
+
+.plates {
+  //margin: 0 10vw 0 10vw;
+  text-indent: 0;
+}
+
+.foodSafety:after {
+  content:"";
+  display: table; 
+  clear: both;
+}
+
+.team {
+  background-color : #F4CC8B;
+  padding: 6vh 15vw 4vh 15vw;
+  //padding-top: 6vh;
+
+}
+
+.teamPosition {
+  display: flex;
+}
+
+.teamMember {
+  width: 10vw;
+  height: 100%;
+  margin: 3vh 2vw 2vh 2vw; 
+  //text-align: center;
+}
+
+.team img {
+  border-radius: 50%;
+  width: 8vw;
+  height: 8vw;
+  margin: 0;
+  padding: 0; 
+}
+
+.team h2 { 
+  color: black;
+}
+
+/*.team h4 {
+  width: 10vw;
+}*/
